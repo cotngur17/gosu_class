@@ -10,8 +10,8 @@ for tc in range(1,T+1):
         else:
             cnt = 1     # 작아지면 다시 초기화
 
-        if cnt > max_cnt:   # 최댓값보다 크면 최댓값으로 갱신
-            max_cnt = cnt
+        if cnt > max_cnt:   
+            max_cnt = cnt   # 최댓값보다 크면 최댓값으로 갱신
 
     print(f"#{tc} {max_cnt}")
 
